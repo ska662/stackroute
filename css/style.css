@@ -1,0 +1,17 @@
+body {	width:500px;
+				margin:auto;
+				background:lightgrey;
+				font-family:sans-serif;}
+
+td{	border: 1px solid white;
+		border-color: white;
+		padding-left: 75px;
+		padding-right: 75px;
+		padding-top: 15px;
+		padding-bottom:15px;}
+
+#def{	padding-left:150px;
+			padding-right:150px;}
+			
+			
+
