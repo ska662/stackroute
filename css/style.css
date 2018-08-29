@@ -174,11 +174,14 @@ header nav li:last-child{
 
 .hero h1{
 	font: bold 60px 'Open Sans', sans-serif;
+	color: white;
+	text-shadow:0 2px 4px gold;
 	margin-bottom: 15px;
 }
 
 .hero h3{
-	font: normal 28px 'Open Sans', sans-serif;
+	font: normal 35px 'Open Sans', sans-serif;
+	text-shadow:0 2px 4px gold;
 	margin-bottom: 40px;
 }
 
@@ -214,9 +217,8 @@ header nav li:last-child{
 	padding: 20px;
 	height: 350px;
 	border-radius: 3px;
-
-	background-clip: content-box;
 	background-size: cover;
+	background-clip: content-box;
 	background-position: center;
 	background-color: #333;
 }
@@ -230,11 +232,11 @@ header nav li:last-child{
 }
 
 
-@media (max-width: 1000px){
+@media (max-width: 1200px){
 
 	.our-work .grid li.small,
 	.our-work .grid li.large{
-		flex-basis: 33.33%;
+		flex-basis: 100%
 	}
 
 }
@@ -244,7 +246,7 @@ footer{
 	align-items: center;
 	text-align: center;
 	color: #fff;
-	background-color: #414a4f;
+	background-color: #4c5fea;
 	padding: 60px 0;
 }
 
@@ -270,6 +272,7 @@ footer p{
 	text-transform: uppercase;
 	font-size: 14px;
 	color: rgba(255,255,255,0.6);
+	font-style: bold;
 	margin-bottom: 10px;
 }
 
