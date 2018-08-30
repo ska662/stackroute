@@ -10,10 +10,12 @@ html{
 	color: #555;
 }
 
-ul, nav{
+nav ul{
 	list-style: none;
 }
-
+ul,nav{
+	list-style: none;
+}
 a{
 	text-decoration: none;
 	color: inherit;
@@ -112,19 +114,19 @@ header h2{
 	font-size: 25px
 }
 
-header nav{
+header nav ul{
 	display: flex;
 }
 
-header nav li{
+header nav ul li{
 	margin: 0 15px;
 }
 
-header nav li:first-child{
+header nav ul li:first-child{
 	margin-left: 0;	
 }
 
-header nav li:last-child{
+header nav ul li:last-child{
 	margin-right: 0;	
 }
 
@@ -310,7 +312,6 @@ footer p{
 	text-transform: uppercase;
 	font-size: 14px;
 	color: rgba(255,255,255,0.6);
-	font-style: bold;
 	margin-bottom: 10px;
 }
 
